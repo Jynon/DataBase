@@ -56,7 +56,7 @@ require_once "../models/Post.php";
  
             while ($_FILES = mysqli_fetch_assoc($result)) {
             ?>
-            <img src="./image/<?php echo $_FILES['image']; ?>">
+            <img src="../images/<?php echo $_FILES['image']; ?>">
  
             <?php
             }
