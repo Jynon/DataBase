@@ -300,3 +300,11 @@ footer {
 }
 .fit {
 	object-fit: cover;
+ 	transition: 1s ease;
+}
+.fit:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
