@@ -298,3 +298,5 @@ footer {
     justify-items: center;
     margin: 75px 20px 5px 5px;
 }
+.fit {
+	object-fit: cover;
